@@ -1,10 +1,7 @@
-- 👋 Hi, I’m @rlcollins
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m Rachael Collins
+- 👀 I’m interested in discovering new technology.
+- 🌱 I’m currently learning Java.
+- 💞️ I’m looking for an Entry Level programming position. 
+- 📫 How to reach me rlcollins@eagles.usi.edu or (812) 774-3134.
 
-<!---
-rlcollins/rlcollins is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
