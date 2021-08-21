@@ -1,0 +1,61 @@
+/*
+Date: 8/21/2021
+
+Developer: Rachael Collins
+
+Description:Build a Droid!
+Instructions on how to create
+robots and what they’ll do.
+	    
+*/
+public class Droid{
+String name;
+int batteryLevel;
+
+//constructor method
+public Droid(String droidName){
+
+  name = droidName;
+  batteryLevel = 100;
+}
+
+//toString method
+public String toString() {
+  return "Hello, I am the droid: " + name;
+}
+
+//perform task method
+public void performTask(String task){
+System.out.println( name + " is performing task: " + task);
+batteryLevel = batteryLevel - 10;
+}
+
+//energy report method
+public void energyReport(Droid codey) {
+ System.out.println(codey.batteryLevel);
+}
+
+//enerygyTransfer method
+public void energyTransfer(Droid codey, Droid codeyTwo) {
+ int variable = codey.batteryLevel;
+ codey.batteryLevel = codeyTwo.batteryLevel;
+ codeyTwo.batteryLevel = variable;
+}
+
+public static void main(String[] args){
+  Droid codeyTwo = new Droid("CodeyTwo");
+  Droid codey = new Droid("Codey");
+  System.out.println(codey);
+  codey.performTask("dancing");
+  codey.performTask("coding");
+  codey.energyTransfer(codey, codeyTwo);
+  System.out.println("" + codey.batteryLevel + " " + codeyTwo.batteryLevel);
+
+
+
+}
+
+
+
+
+}
